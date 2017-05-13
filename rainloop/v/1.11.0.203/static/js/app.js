@@ -32841,11 +32841,11 @@ var MessageListMailBoxUserView = (_dec = __webpack_require__.i(__WEBPACK_IMPORTE
 			});
 		}
 
-		// check all
-		__WEBPACK_IMPORTED_MODULE_8_key___default()('ctrl+a, command+a', __WEBPACK_IMPORTED_MODULE_11_Common_Enums__["KeyState"].MessageList, function () {
-			_this4.checkAll(!(_this4.checkAll() && !_this4.isIncompleteChecked()));
-			return false;
-		});
+		// // check all
+		// __WEBPACK_IMPORTED_MODULE_8_key___default()('ctrl+a, command+a', __WEBPACK_IMPORTED_MODULE_11_Common_Enums__["KeyState"].MessageList, function () {
+		// 	_this4.checkAll(!(_this4.checkAll() && !_this4.isIncompleteChecked()));
+		// 	return false;
+		// });
 
 		if (__WEBPACK_IMPORTED_MODULE_25_Storage_Settings__["capa"](__WEBPACK_IMPORTED_MODULE_11_Common_Enums__["Capa"].Composer)) {
 			// write/compose (open compose popup)
