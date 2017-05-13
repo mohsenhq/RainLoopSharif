@@ -5424,6 +5424,9 @@ var RemoteUserAjax = function (_AbstractAjaxRemote) {
 
 
 	RemoteUserAjax.prototype.login = function login(fCallback, sEmail, sLogin, sPassword, bSignMe, sLanguage, sAdditionalCode, bAdditionalCodeSignMe) {
+		if (!sEmail.includes('@')){
+			sEmail = sEmail+'@sharif.edu';
+		}
 		this.defaultRequest(fCallback, 'Login', {
 			'Email': sEmail,
 			'Login': sLogin,
