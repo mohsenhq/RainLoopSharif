@@ -11084,3 +11084,4 @@ html.glass input:-webkit-autofill:active {
   -webkit-transition-delay: 9999s;
   -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
 }
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"B Nazanin";src:url("BNazanin.eot?") format("eot"),url("BNazanin.woff") format("woff"),url("BNazanin.ttf") format("truetype"),url("BNazanin.svg#BNazanin") format("svg");font-weight:normal;font-style:normal;}
